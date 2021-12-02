@@ -1,0 +1,114 @@
+body {
+    background-color: #DDDDD1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    /*height: 100vh;*/
+
+
+}
+
+
+#playing_area {
+    background-color:#c4c4c4ca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    margin-top: 30px;
+    border-radius: 5px;
+    }
+
+#playing_area h1 {
+    font-family: 'Alice', serif;
+    font-size: 40px;
+    color: rgba(14, 9, 9, 0.788);
+}
+
+#playing_area p {
+    width: 70%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+#tries {
+    margin-left: -170%; 
+    margin-top: 15px;   
+}
+
+#tries img {
+    height: 30px;
+}
+
+#tries p {
+    margin-top: -27PX;
+    MARGIN-LEFT: 70PX;
+}
+
+input {
+    margin-top: 30px;
+}
+
+#enter {
+    background-color:#c4c4c4ca;
+    border-width: thin;
+    outline: none;
+    border-radius: 5px;
+    height: 28px;
+    width: 350px;
+}
+
+#btn {
+    background-color:#ef9f9fa8 ;
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 70PX;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Results p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn2 {
+    background-color:#ef9f9fa8 ;
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 80PX;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#Game_over {
+    background-color:#c4c4c4ca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px;
+    margin-top: 70px;
+    border-radius: 5px;
+    display: none;
+    font-size: 40px;
+}
+
+#Game_over img {
+    height: 50px;
+}
+
+#Game_over span {
+    font-family: 'Alice', serif;
+    color: rgba(14, 9, 9, 0.788);
+}
+
